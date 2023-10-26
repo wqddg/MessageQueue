@@ -7,7 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ActiveMQ_Maven" />
+        <module name="SSMA (1)" />
+        <module name="SSMA (2)" />
+        <module name="SpringBoot-ActiveMQ-producter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot-ActiveMQ-producter" target="11" />
+      <module name="SSMA" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
