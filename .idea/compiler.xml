@@ -13,6 +13,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpringBoot-ActiveMQ-Consumer1" target="11" />
+      <module name="SpringBoot-ActiveMQ-Consumer1.main" target="11" />
+      <module name="SpringBoot-ActiveMQ-Consumer1.test" target="11" />
       <module name="SpringBoot-ActiveMQ-producter" target="11" />
       <module name="SSMA" target="11" />
     </bytecodeTargetLevel>

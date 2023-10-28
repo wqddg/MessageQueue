@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MessageQueue.iml" filepath="$PROJECT_DIR$/.idea/MessageQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-ActiveMQ-Producer1/SpringBoot-ActiveMQ-Producer1.iml" filepath="$PROJECT_DIR$/SpringBoot-ActiveMQ-Producer1/SpringBoot-ActiveMQ-Producer1.iml" />
     </modules>
   </component>
 </project>
