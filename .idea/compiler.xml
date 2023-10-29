@@ -11,8 +11,22 @@
         <module name="SSMA (2)" />
         <module name="SpringBoot-ActiveMQ-producter" />
       </profile>
+      <profile name="Annotation profile for rocketmq-dashboard" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" />
+        </processorPath>
+        <module name="rocketmq-dashboard" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo-admin" target="1.8" />
+      <module name="dubbo-admin-distribution" target="1.8" />
+      <module name="dubbo-admin-server" target="1.8" />
+      <module name="dubbo-admin-test" target="1.8" />
+      <module name="dubbo-admin-ui" target="1.8" />
       <module name="SpringBoot-ActiveMQ-Consumer1" target="11" />
       <module name="SpringBoot-ActiveMQ-Consumer1.main" target="11" />
       <module name="SpringBoot-ActiveMQ-Consumer1.test" target="11" />
