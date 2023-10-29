@@ -32,6 +32,13 @@ pub/sub模式中：有主题，生产者和消费者。非持久化但是可以�
 
 
 ## RabbitMQ
+### 角色分类
+nameServer集群：服务注册于发现中心
+Producer集群：消息发送者
+Consumer集群：消息接收者
+brokerClust：消息存储
+
+
 ## Kafka
 ## Rocket MQ
 # MQ的作用
