@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/dubbo-admin-0.3.0/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-dashboard-rocketmq-dashboard-1.0.0/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-dashboard-master/pom.xml" />
+        <option value="$PROJECT_DIR$/RocketMQ_Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-master-RocketMQ-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-master-RocketMQ-Producer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

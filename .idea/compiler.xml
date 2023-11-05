@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="RocketMQ_Producter" />
         <module name="ActiveMQ_Maven" />
         <module name="SSMA (1)" />
         <module name="SSMA (2)" />
         <module name="SpringBoot-ActiveMQ-producter" />
+        <module name="rocketMQ_Consumer" />
+        <module name="RocketMQ_Maven" />
       </profile>
       <profile name="Annotation profile for rocketmq-dashboard" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -32,6 +35,8 @@
       <module name="SpringBoot-ActiveMQ-Consumer1.test" target="11" />
       <module name="SpringBoot-ActiveMQ-producter" target="11" />
       <module name="SSMA" target="11" />
+      <module name="SSMA (3)" target="11" />
+      <module name="SSMA (4)" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
