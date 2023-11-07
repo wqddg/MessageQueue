@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="RocketMQ_Producter" />
         <module name="ActiveMQ_Maven" />
+        <module name="Springboot-RocketMq" />
         <module name="SSMA (1)" />
         <module name="SSMA (2)" />
         <module name="SpringBoot-ActiveMQ-producter" />

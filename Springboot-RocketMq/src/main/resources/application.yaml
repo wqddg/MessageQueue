@@ -1,0 +1,8 @@
+server:
+  port: 8081
+rocketmq:
+  consumer:
+    group: springGroup
+  producer:
+    group: springGroup
+  name-server: 192.168.128.138:9876
