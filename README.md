@@ -31,11 +31,11 @@ pub/sub模式中：有主题，生产者和消费者。非持久化但是可以�
 * 非事务时，在事务选项中为手动模式 没有调用手动ACK方法
 
 
-## RabbitMQ
+## Rocket MQ
 ### 角色分类
 nameServer集群：服务注册于发现中心
 
-Producer集群：消息发送者
+*Producer集*群：消息发送者
 
 Consumer集群：消息接收者
 
@@ -97,7 +97,33 @@ config文件夹：运行中配置文件目录
 
 
 ## Kafka
-## Rocket MQ
+## RabbitMQ
+### 项目结构
+生产者：消息产生者
+
+消费者：消息消费者
+
+channel：生产者、消费者和Virtual Host连接成功之后会形成channel和交换机进行交互
+
+Virtual Host：代表模块。
+
+exchange：交换机。
+
+routes：路由 交换机和队列之间的连接是和路由一致的。
+
+queue：队列。
+### 通信方式有七种
+#### hello word 采用默认的交换机  一个队列一个发送者和消息者
+#### work queues：采用默认的交换机 一个队列一个发送者 多个消费者
+#### publish/subscribe: 手动交换机发送多个队列 FABOUT模式
+#### Routing：手动交换机多个队列采用绑定添加路由规则
+#### topic：手动交换机采用多个路由规则 占位符这些 
+#### RPC：两个队列，一个队列是客户端，一个是服务端
+#### publisher Confirms：保证消息可靠性
+
+
+
+
 # MQ的作用
 ## 异步处理
 一般情况是串行和并行
