@@ -15,6 +15,7 @@
         <module name="SpringBoot-ActiveMQ-producter" />
         <module name="rocketMQ_Consumer" />
         <module name="RocketMQ_Maven" />
+        <module name="SpringBoot-RabbitMQ" />
       </profile>
       <profile name="Annotation profile for rocketmq-dashboard" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />

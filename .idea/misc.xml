@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/ssm-master-RocketMQ-Producer/pom.xml" />
         <option value="$PROJECT_DIR$/Springboot-RocketMq/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQ_Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RabbitMQ/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
