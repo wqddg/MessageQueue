@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SpringBoot-ActiveMQ-Consumer1" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringBoot-ActiveMQ-Producer1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ActiveMQ_Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-master-ActiveMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-master-ActiveMQ-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-ActiveMQ-producter/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-admin-0.3.0/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-dashboard-rocketmq-dashboard-1.0.0/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-dashboard-master/pom.xml" />
+        <option value="$PROJECT_DIR$/RocketMQ_Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-master-RocketMQ-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-master-RocketMQ-Producer/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot-RocketMq/pom.xml" />
+        <option value="$PROJECT_DIR$/RabbitMQ_Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-RabbitMQ/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/SpringBoot-ActiveMQ-producter/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-admin-0.3.0/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-dashboard-rocketmq-dashboard-1.0.0/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

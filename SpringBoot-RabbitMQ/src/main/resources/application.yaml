@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 192.168.128.138
+    username: guest
+    password: guest
+    virtual-host: /
+    port: 5672
+    listener:
+      simple:
+        acknowledge-mode: manual # 开启手动ACK
+        prefetch: 10 #每次拿10条休息 消费
+        concurrency: 1 #开启多少个线程 来消费
+    publisher-confirm-type: correlated #用来开启confirm模式
+    publisher-returns: true

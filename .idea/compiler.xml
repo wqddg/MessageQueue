@@ -10,6 +10,7 @@
         <module name="SSMA (1)" />
         <module name="SSMA (2)" />
         <module name="SpringBoot-ActiveMQ-producter" />
+        <module name="RocketMQ_Maven" />
       </profile>
       <profile name="Annotation profile for rocketmq-dashboard" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -27,10 +28,15 @@
       <module name="dubbo-admin-server" target="1.8" />
       <module name="dubbo-admin-test" target="1.8" />
       <module name="dubbo-admin-ui" target="1.8" />
+      <module name="RabbitMQ_Maven" target="11" />
+      <module name="rocketMQ_Consumer" target="11" />
+      <module name="RocketMQ_Producter" target="11" />
       <module name="SpringBoot-ActiveMQ-Consumer1" target="11" />
       <module name="SpringBoot-ActiveMQ-Consumer1.main" target="11" />
       <module name="SpringBoot-ActiveMQ-Consumer1.test" target="11" />
       <module name="SpringBoot-ActiveMQ-producter" target="11" />
+      <module name="SpringBoot-RabbitMQ" target="11" />
+      <module name="Springboot-RocketMq" target="11" />
       <module name="SSMA" target="11" />
     </bytecodeTargetLevel>
   </component>
